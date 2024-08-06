@@ -10,7 +10,7 @@ body{
 .heroes
 {
     
-    background-image: url("./images/hero.jpg");
+    background-image: url("./hero.jpg");
     background-size: cover;
     height: 700px;
 }
@@ -126,7 +126,7 @@ body{
 
 .bg-img
 {
-    background-image: url("./images/hero.jpg");
+    background-image: url("./hero.jpg");
     background-size: cover;
     height: 200px;
     margin-bottom: 0;
