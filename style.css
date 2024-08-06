@@ -1,0 +1,284 @@
+
+*
+{
+    font-family:serif, sans-serif;
+    color: rgb(139, 182, 220);
+}
+body{
+    background-color: #f0f2f6;
+}
+.heroes
+{
+    
+    background-image: url("./images/hero.jpg");
+    background-size: cover;
+    height: 700px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 700px;
+    width: 50%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+.intro
+{
+    font-size: 100px;
+    font-family:serif, sans-serif;
+    color: rgb(139, 182, 220);
+    
+}
+
+.about
+{
+    font-size: 40px;
+    font-family:serif, sans-serif;
+    color: rgb(139, 182, 220);
+    margin-top: 10px; 
+}
+.sayhi
+{
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: serif,Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  
+}
+.sayhi:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.sayhi:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.section-2
+{
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 100px 0;
+}
+
+.container-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.profile
+{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.container-2 h2
+{
+    font-size: 4rem;
+}
+.container-2 p
+{
+    font-size: 20px;
+    width: 40%;
+    text-align: justify;
+}
+.profile-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img
+{
+    background-image: url("./images/hero.jpg");
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 0;
+    
+}
+
+.foot-item-1
+{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.foot-item-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 30px;
+}
+
+.section-3
+{
+    height: 550px;
+}
+.section-3 h2
+{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.skills-container
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%  ;
+    grid-template-rows:  40% 40% ;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    row-gap: 15%;
+    column-gap: 5%;
+}
+
+
+.skills-container img
+{
+    height: 170px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Make adjustments to the layout and styling for phone screens */
+    .heroes {
+      height: 450px; /* Reduce the height of the hero section */
+    }
+    .container {
+      width: 90%; /* Increase the width of the container to fit the phone screen */
+      margin-left: 5%; /* Adjust the margin to center the container */
+    }
+    .intro {
+      font-size: 50px; /* Reduce the font size of the intro text */
+    }
+    .about {
+      font-size: 25px; /* Reduce the font size of the about text */
+    }
+    .sayhi {
+      font-size: 20px; /* Reduce the font size of the button text */
+      min-height: 40px; /* Reduce the minimum height of the button */
+      margin-top: 30px;
+    }
+    .section-2 {
+      height: 300px; /* Reduce the height of the section 2 */
+    }
+    .container-2 {
+      padding: 20px; /* Increase the padding to fit the phone screen */
+    }
+    .profile {
+      height: 150px; /* Reduce the height of the profile image */
+      width: 150px; /* Reduce the width of the profile image */
+    }
+    .container-2 h2 {
+      font-size: 40px; /* Reduce the font size of the heading */
+    }
+    .container-2 p {
+      font-size: 15px; /* Reduce the font size of the paragraph text */
+      width: 90%; /* Increase the width of the paragraph text */
+    }
+    .foot-item-1 {
+      height: 80px; /* Reduce the height of the footer item 1 */
+      gap: 50px; /* Reduce the gap between the footer items */
+    }
+    .foot-item-2 {
+      margin-left: 15px; /* Adjust the margin to fit the phone screen */
+      margin-top: 50px;
+    }
+
+    .section-3
+    {
+        height: 700px;
+    }
+    .section-3 h2
+    {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .skills-container
+    {
+        display: grid;
+        grid-template-rows: 33% 33% 33%  ;
+        grid-template-columns:  40% 40% ;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        column-gap: 15%;
+        row-gap: 5%;
+    }
+
+
+    .skills-container img
+    {
+        height: 170px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 950px) {
+    .intro {
+      font-size: 80px;
+    }
+    .about {
+      font-size: 30px;
+    }
+    .container {
+      width: 60%;
+    }
+    .sayhi {
+        margin-top: 40px;
+      font-size: 25px;
+    }
+    .section-2 {
+      height: 450px;
+    }
+    .container-2 h2 {
+      font-size: 3.5rem;
+    }
+    .container-2 p {
+      font-size: 18px;
+    }
+    .skills-container {
+      grid-template-columns: 30% 30% 30%;
+    }
+  }
